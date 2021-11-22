@@ -1,0 +1,121 @@
+html, h1, h2, ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fafafd;
+    color: #7b7b80;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+main{
+    max-width: 2650px;
+    margin: auto;
+}
+header{
+    background: #333;
+    padding: 10px 0;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    display: block;
+}
+header ul li a{
+    color: #b0b0b0;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2-ip12{
+    font-size: 50px;
+}
+
+.from{
+    padding: 10px 0;
+}
+.from p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.ribbon{
+    text-align: center;
+    background: #f3f3f6;
+    padding: 10px 0;
+}
+.ribbon .biru{
+    color: #0964c3;
+}
+
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.banner h2{
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+}
+.banner p{
+    margin: 5px 0;
+}
+
+.hitam{
+    background: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.hitam h2{
+    color: white;
+}
+.hitam p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.hitam .pro12{
+    padding: 30px 0 0 0;
+}
+
+.hitam-menu{
+    display: flex;
+    justify-content: center;
+}
+.hitam-menu li{
+    display: block;
+}
+.hitam-menu li a{
+    color: #2590fa;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.fitness{
+    text-align: center;
+    color: black;
+    padding: 30px 0;
+}
+.fitness .jam{
+    padding-top: 20px;
+}
