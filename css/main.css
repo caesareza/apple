@@ -74,19 +74,25 @@ header .menu-mobile{
     height: 600px;
     margin-bottom: 10px;
 }
-.banner h1{
+.banner-inside{
+    text-align: center;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.banner h1, .banner-inside h1{
     font-size: 50px;
     color: black;
     font-weight: 500;
     padding-top: 50px;
 }
-.banner h2{
+.banner h2, .banner-inside h2{
     font-size: 25px;
     color: black;
     font-weight: 300;
     margin-bottom: 15px;
 }
-.banner p{
+.banner p, .banner-inside p{
     margin: 5px 0;
 }
 
